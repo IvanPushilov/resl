@@ -1,0 +1,99 @@
+.modalka {
+  z-index: 999999;
+  position: fixed;
+  left: 33%;
+  top: 15%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: 600px;
+  outline: 2px solid #000;
+  opacity: 1 !important;
+}
+.modalkaD{
+  z-index: 999999;
+  position: fixed;
+  left: 33%;
+  top: 15%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: auto;
+  outline: 2px solid #000;
+  opacity: 1 !important;
+}
+.form-control {
+  margin: 10px;
+  width: 560px;
+}
+.col-auto {
+  margin: 10px;
+}
+.ulka {
+  font-weight: 300;
+  text-align: start;
+  font-size: 20px;
+}
+.cardM {
+  display: grid;
+  position: absolute;
+  border-radius: 0;
+  width: 600px;
+  height: auto;
+  top: 200%;
+  left: 30%;
+  overflow: 1;
+  flex-direction: row;
+  border: 1px solid black
+}
+
+.ModalCartItem {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.closeModal {
+  display: flex;
+  width: 100%;
+  border-right: 0px solid white;
+  border-left: 0px solid white;
+  padding: 12px 2px;
+}
+.buttonCloseModal {
+  border: none;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+}
+.cartSize {
+  font-size: 35px;
+}
+.thClass {
+  font-weight: normal;
+  border-bottom: 2px solid #6678b1;
+  border-right: 30px solid white;
+  border-left: 30px solid white;
+  padding: 8px 2px;
+}
+td {
+  border-right: 30px solid white;
+  border-left: 30px solid white;
+  padding: 12px 2px;
+}
+.formBuy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.butHover:hover {
+  background-color: #b1fbe2 !important;
+  color: black;
+  border: none;
+}
+

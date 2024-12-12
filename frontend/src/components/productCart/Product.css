@@ -1,0 +1,8 @@
+.productList {
+  display: flex;
+  background: linear-gradient(180deg, #ffffff, #a1a1a1, #ffffff);
+}
+
+.cardPro {
+  display: flex;
+}/*# sourceMappingURL=Product.css.map */

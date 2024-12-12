@@ -1,0 +1,10 @@
+.textFooter{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 0 0 20px;
+}
+
+#contacts {
+    padding-top: 80px;    
+     margin-top: -80px;
+  }
